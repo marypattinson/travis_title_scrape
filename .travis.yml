@@ -1,6 +1,6 @@
 services:
   - docker
-before_install:
+script:
   - docker image build -t marypattinson/imagetest .
 deploy:
   provider: script
